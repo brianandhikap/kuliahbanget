@@ -50,10 +50,10 @@ public class Tugas3 {
 
         System.out.println("----------------------------");
         System.out.println("Golongan        : " + gol);
-        System.out.println("Gaji Pokok      : " + gajiPokok);
+        System.out.printf("Gaji Pokok      : %,.0f\n", (double) gajiPokok);
         System.out.println("Persen Lembur   : " + persen + "%");
-        System.out.println("Gaji Lembur     : " + gajiLembur);
-        System.out.println("Total Gaji      : " + totalGaji);
+        System.out.printf("Gaji Lembur     : %,.0f\n", gajiLembur);
+        System.out.printf("Total Gaji      : %,.0f\n", totalGaji);
         System.out.println("----------------------------");
     }
 }
