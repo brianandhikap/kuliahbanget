@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 import java.util.Arrays;
 
-public class tugas4a {
+public class tugas1a {
     public static void main(String[] args) {
 
         float StrukturBaris = 0.0f;
