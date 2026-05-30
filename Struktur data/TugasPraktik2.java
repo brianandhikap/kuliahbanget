@@ -7,9 +7,6 @@ public class TugasPraktik2 {
 
     public static void main(String[] args) {
 
-        // =========================
-        // STACK (LIFO)
-        // =========================
         System.out.println("===== STACK (LIFO) =====");
 
         Stack<Integer> stack = new Stack<>();
@@ -33,9 +30,6 @@ public class TugasPraktik2 {
         System.out.println(stack);
 
 
-        // =========================
-        // QUEUE (FIFO)
-        // =========================
         System.out.println("\n===== QUEUE (FIFO) =====");
 
         Queue<Integer> queue = new LinkedList<>();
@@ -58,10 +52,6 @@ public class TugasPraktik2 {
         System.out.println("\nIsi Queue Sesudah Dequeue:");
         System.out.println(queue);
 
-
-        // =========================
-        // QUICK SORT
-        // =========================
         System.out.println("\n===== QUICK SORT =====");
 
         int[] arr = {45, 12, 78, 34, 23, 89, 67, 10};
@@ -75,7 +65,6 @@ public class TugasPraktik2 {
         System.out.println(Arrays.toString(arr));
     }
 
-    // Method Quick Sort
     public static void quickSort(int[] arr, int low, int high) {
 
         if (low < high) {
@@ -87,7 +76,6 @@ public class TugasPraktik2 {
         }
     }
 
-    // Method Partition
     public static int partition(int[] arr, int low, int high) {
 
         int pivot = arr[high];
